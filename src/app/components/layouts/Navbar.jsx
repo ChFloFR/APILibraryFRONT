@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/icone/Book_25711.png"
 
 import {
   URL_HOME,
@@ -25,6 +26,7 @@ const Navbar = () => {
           />
         </Link>
       </div>
+
     </div>
   );
 };
